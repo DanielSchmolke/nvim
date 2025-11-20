@@ -1,6 +1,5 @@
 return {
-  "tasks",
-  -- todo can we put this in the repo and just load it from here?
+  "test",
   dir = vim.fn.stdpath("config") .. "/lua/plugins",
   dev = true,
   lazy = false,
